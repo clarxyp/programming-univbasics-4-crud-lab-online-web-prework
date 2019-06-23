@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ["Dorothy Gale", "Scarecrow", "The Cowardly Lion", "The Tin Man"]
-  << "Good Witch of the North"
+  array = ["Dorothy Gale", "Scarecrow", "The Cowardly Lion", "The Tin Man"]
+  array << "Good Witch of the North"
 end
 end
 
